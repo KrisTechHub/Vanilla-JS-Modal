@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous"/>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Modal VanillaJS</title>
+</head>
+<body>
+            <!--MAIN PAGE-->
+    <header class="container">
+        <div class="banner">
+            <img class="logo" src="./images/logo.png" alt="logo">
+            <h1>Italian Restaurant</h1>
+            <img class="bnr" src="./images/restaurant.jpg" alt="italianrestaurant">
+            <p>Over the years we have been 
+                selected as one of the places to go for grilled meat. <br> Let us serve you the most
+                excellent fine-dining experience in Manila.</p>
+            <button class="modal-btn">Check branches</button>
+        </div>
+    </header>
+
+
+            <!--MODAL-->
+    <div class="modal-overlay">
+        <div class="modal-container">
+            <h3> Our Branches </h3>
+            <div class="branches">
+                <img class="branch" src="./images/1.png">
+                <img class="branch" src="./images/2.png">
+                <img class="branch" src="./images/3.png">
+            </div>
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
